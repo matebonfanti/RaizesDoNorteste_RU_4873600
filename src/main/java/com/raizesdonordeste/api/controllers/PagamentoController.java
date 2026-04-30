@@ -5,6 +5,7 @@ import com.raizesdonordeste.api.repositories.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.raizesdonordeste.api.models.enums.StatusPedido;
 
 import java.util.Map;
 import java.util.Optional;
@@ -33,7 +34,7 @@ public class PagamentoController {
         Pedido pedido = pedidoOpt.get();
         
 
-        pedido.setStatus(com.raizesdonordeste.api.models.StatusPedido.PREPARANDO);
+        pedido.setStatus(StatusPedido.PREPARANDO);
         pedidoRepository.save(pedido);
 
         return ResponseEntity.ok().body(Map.of(

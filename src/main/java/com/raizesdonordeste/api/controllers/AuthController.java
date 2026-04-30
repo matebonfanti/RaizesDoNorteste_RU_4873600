@@ -14,7 +14,7 @@ public class AuthController {
         String email = credenciais.get("email");
         String senha = credenciais.get("senha");
 
-        // Simulação de base de dados para MVP
+        // Substituir mock estático por consulta na tabela de Usuários na próxima release.
         if ("gerente@raizes.com".equals(email) && "123456".equals(senha)) {
             return ResponseEntity.ok(Map.of(
                 "accessToken", "jwt-token-valido-gerente-12345",
@@ -27,7 +27,7 @@ public class AuthController {
             ));
         }
 
-        // Retorna 401 se as credenciais estiverem erradas (Cenário de Teste T02/T03)
+        //Retorna 401 (Unauthorized) caso as credenciais sejam inválidas.
         return ResponseEntity.status(401).body(Map.of(
             "error", "CREDENCIAIS_INVALIDAS",
             "message", "E-mail ou senha inválidos."
