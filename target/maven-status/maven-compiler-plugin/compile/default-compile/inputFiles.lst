@@ -1,0 +1,13 @@
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\ApiApplication.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\controllers\ProdutoController.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\Cliente.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\enums\CanalPedido.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\enums\StatusPedido.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\ItemPedido.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\Pedido.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\models\Produto.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\repositories\ClienteRepository.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\repositories\ItemPedidoRepository.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\repositories\PedidoRepository.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\repositories\ProdutoRepository.java
+c:\Users\netad\OneDrive\Área de Trabalho\Raizes do Nordeste - Trabalho de Conclusão\api\src\main\java\com\raizesdonordeste\api\services\PedidoService.java
